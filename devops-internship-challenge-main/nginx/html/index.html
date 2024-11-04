@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Information</h1>
+    <p><strong>IP Address:</strong> <span id="user_ip">{{ user_ip }}</span></p>
+    <p><strong>MAC Address:</strong> <span id="mac_address">{{ mac_address }}</span></p>
+    <p><strong>Username:</strong> <span id="username">{{ username }}</span></p>
+    <p><strong>Timestamp:</strong> <span id="timestamp">{{ timestamp }}</span></p>
+    <br>
+    <h3>Assignment completed successfully!</h3>
+</body>
+</html>
